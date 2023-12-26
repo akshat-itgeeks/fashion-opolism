@@ -1,0 +1,92 @@
+.two-img-banner-full-page {
+    width: 100%;
+    display: flex;
+}
+
+.two-img-banner-img1-area {
+
+    width: 50%;
+    height: 700px;
+    overflow: hidden;
+    background-color: rgb(102, 143, 179);
+}
+
+.two-img-banner-img2-area {
+    overflow: hidden;
+    width: 50%;
+    height: 700px;
+    background-color: rgb(18, 27, 27);
+}
+
+.two-img-banner-img1 {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-image: url('https://fashionopolism-secret-sale.myshopify.com/cdn/shop/files/fash___vanessa-serpas-U0m4t8tD8Sk-unsplashjpg.jpg?v=1629222503');
+    background-position: center;
+    background-size: cover;
+    transition: all 3s;
+    overflow: hidden;
+}
+
+.two-img-banner-img1:hover {
+    transform: scale(1.05);
+    overflow: hidden;
+
+}
+
+.two-img-banner-img2 {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-image: url('https://fashionopolism-secret-sale.myshopify.com/cdn/shop/files/fash__jonathan-borba-XJt51hAa3z8-unsplash.jpg?v=1629222523');
+    background-position: center;
+    background-size: cover;
+    transition: all 3s;
+    overflow: hidden;
+}
+
+.two-img-banner-img2:hover {
+    transform: scale(1.05);
+    overflow: hidden;
+
+}
+
+.two-img-banner-text-area {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.two-img-banner-main-text {
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.two-img-banner-text-button-area {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.two-img-banner-text {
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.two-img-banner-button {
+    color: white;
+    font-size: 16px;
+    background-color: black;
+    padding: 12px 26px;
+}

@@ -1,0 +1,87 @@
+.new-looks-area
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 60px;
+    gap: 20px;
+}
+.new-looks-heading
+{
+    font-weight: 700;
+    font-size: 20px;
+}
+.new-looks-carousel-area
+{
+    width: 100%;
+    height: 600px;
+}
+.carousel-card
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 282px;
+    height: auto;
+}
+.carousel-card img
+{
+    object-fit: cover;
+    width: 100%;
+    height: 80%;
+}
+.carousel-card-text-area
+{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: center;
+}
+.carousel-card-types-circles
+{
+    display: flex;
+    width: 50px;
+    height: 20px;
+    gap: 5px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+.carousel-card-types-circles img
+{
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-card-size-area
+{
+    display: flex;
+    gap: 4px;
+    font-size: smaller;
+}
+.carousel-card-new-in-area
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    padding: 6px;
+    font-size: 11px;
+    font-weight: 700;
+    background-color: white;
+    color: black;
+    position: relative;
+    top: 45px;
+    left: 12px;
+}
+
+.carousel-card-view-all-area
+{
+    background-color: black;
+    color: whitesmoke;
+    margin: 10px 0px;
+    padding: 13px 28px;
+}

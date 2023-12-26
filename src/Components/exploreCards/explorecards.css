@@ -1,0 +1,89 @@
+.explore-cards-main-area
+{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    padding: 0px 55px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.explore-cards-1-area
+{
+    overflow: hidden;
+}
+.explore-cards-2-area
+{
+    overflow: hidden;
+}
+.explore-cards-3-area
+{
+    overflow: hidden;
+}
+.explore-cards-1
+{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 390px;
+    height: 290px;
+    background-image: url('https://fashionopolism-secret-sale.myshopify.com/cdn/shop/files/gallery__image-one.jpg?v=1643320722');
+    background-position: center;
+    background-size: cover;
+    transition: all 3s;
+    overflow: hidden;
+}
+.explore-cards-2
+{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 390px;
+    height: 290px;
+    background-image: url('https://fashionopolism-secret-sale.myshopify.com/cdn/shop/files/gallery__image-three.jpg?v=1643320740');
+    background-position: center;
+    background-size: cover;
+    transition: all 3s;
+    overflow: hidden;
+}
+.explore-cards-3
+{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 390px;
+    height: 290px;
+    background-image: url('https://fashionopolism-secret-sale.myshopify.com/cdn/shop/files/gallery__image-two.jpg?v=1643320766');
+    background-position: center;
+    background-size: cover;
+    transition: all 3s;
+    overflow: hidden;
+}
+
+.explore-cards-hover:hover
+{
+    transform:scale(1.06);
+    overflow: hidden;
+
+}
+
+.explore-cards-text-area
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.explore-cards-heading
+{
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+}
+.explore-cards-btn
+{
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+}

@@ -1,0 +1,130 @@
+.most-top-header-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 50px;
+    padding: 0px 55px;
+}
+
+.top-header-logo-area {
+    display: flex;
+    width: 30%;
+    gap: 18px;
+}
+
+.top-header-slider-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.swiper-wrapper {
+    display: flex;
+    font-weight: 300;
+
+}
+
+.topBarSlider {
+    display: flex;
+    width: 100px;
+    font-size: small;
+    font-weight: 300;
+    padding-left: 24%;
+}
+
+.swiper-button-prev::after {
+    --swiper-navigation-size: 12px;
+    color: white;
+}
+
+.swiper-button-next::after {
+    color: white;
+    --swiper-navigation-size: 12px;
+}
+
+.top-header-language-area {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 30%;
+}
+
+.my-language-select {
+    
+    width: 160px;
+    height: 45px
+}
+
+.navbar-area {
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 55px;
+}
+
+.nav-links-area {
+    width: 30%;
+    padding: 12px;
+    display: flex;
+    gap: 22px;
+}
+.nav-links-area span
+{
+    cursor: pointer;
+}
+.nav-logo-area {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+.nav-logo-area img {
+    width: 220px;
+}
+
+.nav-account-cart-area {
+    width: 30%;
+    align-items: center;
+    display: flex;
+    gap: 16px;
+    justify-content: end;
+}
+
+.ReactFlagsSelect-module_selectValue__152eS 
+{
+    color: white;
+    width: 100px;
+}
+.ReactFlagsSelect-module_selectOptionValue__vS99-
+{
+    color: black;
+}
+
+
+
+
+.dropdown-content-area
+{
+    position: absolute;
+    display: none;
+    left: 65px;
+    top: 110px;
+}
+
+
+
+
+
+/* .nav-shop-btn:hover .dropdown-content-area
+{
+   display: block;
+} */
+
+
