@@ -17,6 +17,7 @@
 {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     gap: 5px;
     justify-content: space-between;
     
@@ -24,6 +25,7 @@
 .shop-by-collection-card
 {
     display: flex;
+    cursor: pointer;
     width: 288px;
     align-items: center;
     flex-direction: column;
