@@ -33,7 +33,7 @@ export default function NewLooks(props) {
       slidesToSlide: 1 // optional, default to 1.
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 564, min: 0 },
       items: 1,
       slidesToSlide: 1 // optional, default to 1.
     }
@@ -64,7 +64,7 @@ export default function NewLooks(props) {
           {AllProducts.map((data,idx) => {
             
             return <>
-            
+             
               <div className='carousel-card'>
                 <span className='carousel-card-new-in-area'>NEW IN</span>
                 <img src={ (isHovering[idx]===true)?data.images[0].src : data.images[1].src} alt="" onMouseOver={() => handleMouseOver(idx)} onMouseOut={() => handleMouseOut(idx)} ></img>  

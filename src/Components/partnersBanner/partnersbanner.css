@@ -13,3 +13,13 @@
     display: flex;
     width: 180px;
 }
+
+@media screen and (min-device-width:200px) and (max-device-width:506px) 
+{
+    .partners-logo
+    {
+        display: flex;
+        width: 150px;
+    }
+    
+}

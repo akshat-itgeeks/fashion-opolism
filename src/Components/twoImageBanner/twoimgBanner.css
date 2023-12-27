@@ -3,20 +3,15 @@
     display: flex;
 }
 
-.two-img-banner-img1-area {
+.two-img-banner-img-area 
+{
 
     width: 50%;
     height: 700px;
     overflow: hidden;
-    background-color: rgb(102, 143, 179);
 }
 
-.two-img-banner-img2-area {
-    overflow: hidden;
-    width: 50%;
-    height: 700px;
-    background-color: rgb(18, 27, 27);
-}
+
 
 .two-img-banner-img1 {
     cursor: pointer;
@@ -90,4 +85,14 @@
     font-size: 16px;
     background-color: black;
     padding: 12px 26px;
+}
+
+@media screen and (min-device-width:200px) and (max-device-width:750px) 
+{
+    .two-img-banner-img-area 
+    {
+        height: 450px;
+    }
+
+    
 }

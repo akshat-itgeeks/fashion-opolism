@@ -14,12 +14,13 @@
 .inspired-looks-main-area
 {
     width: 100%;
+    gap: 20px;
     display: flex;
     flex-wrap: wrap;
 }
 .inspired-looks-main-image-area
 {
-    width: 50%;
+    width: 600px;
 }
 .inspired-looks-main-image-area img
 {
@@ -91,4 +92,20 @@
     width: 100%;
     height: 1px ;
     background-color: #DDD;
+}
+
+@media screen and (min-device-width: 281px) and (max-device-width: 800px) 
+{ 
+    .inspired-looks-multiple-card-area
+    {
+        width: 400px;
+    }
+}
+
+@media screen and (min-device-width:200px) and (max-device-width:480px) 
+{
+.inspired-looks-multiple-card-area
+{
+    width: 300px;
+}    
 }

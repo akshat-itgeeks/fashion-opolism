@@ -59,8 +59,11 @@
 }
 
 .navbar-area {
-    width: 100%;
+    display: flex;
     z-index: 1;
+    top: 0;
+    position: sticky;
+    width: 100%;
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -119,13 +122,55 @@
     top: 110px;
 }
 
+@media screen and (min-device-width: 281px) and (max-device-width: 880px) 
+{ 
+    .most-top-header-area
+    {
+        padding: 0px 20px;
+    }
+
+    .hideinMobile
+    {
+        display: none;
+    }
+    .top-header-language-area
+    {
+        display: none;
+    }
+    .top-header-slider-area
+    {
+        width: 100%;
+    }
+   
+    .top-header-logo-area
+    {
+        display: none;
+    }
+    .nav-links-area
+    {
+        display: none;
+    }
+    .nav-account-cart-area
+    {
+        gap: 8px;
+        width: 60%;
+    }
+}
 
 
-
-
-/* .nav-shop-btn:hover .dropdown-content-area
+@media screen and (min-width:200px) and (max-width:480px) 
 {
-   display: block;
-} */
 
+    
+    .topBarSlider
+    {
+        padding-left:20%;
+        font-size: small;
+    }
+    .swiper-slide
+    {
+        font-size: 12px;
+    }
 
+    
+}

@@ -7,7 +7,7 @@ export default function TwoImgBanner() {
 
   return (
     <div className='two-img-banner-full-page'>
-      <div className="two-img-banner-img1-area">
+      <div className="two-img-banner-img-area">
         <div className="two-img-banner-img1">
           <div className="two-img-banner-text-area">
             <span className='two-img-banner-main-text'>
@@ -20,7 +20,7 @@ export default function TwoImgBanner() {
           </div>
         </div>
       </div>
-      <div className="two-img-banner-img2-area">
+      <div className="two-img-banner-img-area">
         <div className="two-img-banner-img2">
           <div className="two-img-banner-text-area">
             <span className='two-img-banner-main-text'>
