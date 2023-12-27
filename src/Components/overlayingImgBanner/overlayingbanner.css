@@ -1,0 +1,95 @@
+.over-laying-full-page {
+    width: 100%;
+    margin-top: 100px;
+    padding: 0px 55px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.over-laying-img1 {
+    overflow: hidden;
+    width: 80%;
+}
+
+.over-laying-img1 img {
+    transition: all 4s;
+    width: 100%;
+}
+
+.over-laying-img1 img:hover {
+    transform: scale(1.08);
+
+}
+
+.over-laying-img2 {
+    position: relative;
+    bottom: 40px;
+    right: 136px;
+    width: 80%;
+    overflow: hidden;
+}
+
+.over-laying-img2 img {
+    transition: all 4s;
+    width: 100%;
+}
+
+.over-laying-img2 img:hover {
+    transform: scale(1.1);
+}
+
+.over-laying-page-text-area {
+    width: 50%;
+    position: relative;
+    right: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    bottom: 40px;
+}
+
+.over-laying-page-description {
+    font-size: small;
+}
+
+.over-laying-page-text-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.over-laying-page-description {
+    font-size: 14px;
+}
+
+.over-laying-page-button {
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    padding: 11px 26px;
+    background-color: black;
+}
+
+@media screen and (min-device-width:200px) and (max-device-width:750px) {
+
+    .over-laying-full-page {
+        padding: 0px 20px;
+    }
+
+    .over-laying-img1 {
+        width: 100%;
+    }
+    .over-laying-img2
+    {
+        width: 100%;
+    }
+    .over-laying-page-text-area
+    {
+        width: 80%;
+        right: 40px;
+    }
+
+}

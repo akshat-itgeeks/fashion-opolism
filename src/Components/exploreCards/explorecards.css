@@ -87,3 +87,25 @@
     font-weight: 300;
     font-size: 16px;
 }
+
+@media screen and (min-device-width:100px) and (max-device-width:580px) 
+{
+    .explore-cards-main-area
+{
+    padding: 0px 25px;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+@media screen and (min-device-width:580px) and (max-device-width:889px) 
+{
+    .explore-cards-main-area
+{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+}

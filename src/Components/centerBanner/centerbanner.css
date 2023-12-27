@@ -25,7 +25,8 @@
 .center-banner-main-text
 {
     color: white;
-    font-weight: 600;
+    letter-spacing: 1.5px;
+    font-weight: 700;
     font-size: 25px;
 }
 .center-banner-description

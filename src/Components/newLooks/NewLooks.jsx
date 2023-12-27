@@ -3,18 +3,18 @@ import './newlooks.css';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
-export default function NewLooks() {
+export default function NewLooks(props) {
 
   const [isHovering, setIsHovering] = useState([]);
 
   const handleMouseOver = (index) => {
-      const hovers = [...isHovering]
+      const hovers = []
       hovers[index] = true;
       setIsHovering(hovers);
   };
 
   const handleMouseOut = (index) => {
-      const hovers = [...isHovering]
+      const hovers = []
       hovers[index] = false;
       setIsHovering(hovers);
   };
@@ -33,7 +33,7 @@ export default function NewLooks() {
       slidesToSlide: 1 // optional, default to 1.
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 564, min: 0 },
       items: 1,
       slidesToSlide: 1 // optional, default to 1.
     }
@@ -64,10 +64,11 @@ export default function NewLooks() {
           {AllProducts.map((data,idx) => {
             
             return <>
-            
+             
               <div className='carousel-card'>
                 <span className='carousel-card-new-in-area'>NEW IN</span>
-                <img src={ (isHovering[idx]===true)?data.images[0].src:data.images[1].src} alt="" onMouseOver={() => handleMouseOver(idx)} onMouseOut={() => handleMouseOut(idx)} ></img>  
+                <img src={ (isHovering[idx]===true)?data.images[0].src : data.images[1].src} alt="" onMouseOver={() => handleMouseOver(idx)} onMouseOut={() => handleMouseOut(idx)} ></img>  
+                <span className={isHovering[idx]===true?'carousel-card-shop-btn onhover-active':'carousel-card-shop-btn '}>QUICK SHOP</span>
                 <div className="carousel-card-text-area">
                   <span>{data.title}</span>
                   <span>{data.variants[0].price} $</span>

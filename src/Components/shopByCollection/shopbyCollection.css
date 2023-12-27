@@ -2,14 +2,16 @@
 {
     padding: 0px 60px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     gap: 20px;
     align-items: center;
 }
 .shop-by-collection-heading
 {
+    letter-spacing: 1.4px;
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 600;
     word-spacing: 2px;
     
 }
@@ -45,4 +47,21 @@
 {
     font-size: 14px;
     font-weight: 400;
+}
+
+
+@media screen and (min-device-width:200px) and (max-device-width:700px) 
+{
+    .shop-by-collection-full-page
+{
+    display: flex;
+    padding: 0px 25px;
+    align-items: center;
+    justify-content: center;
+}
+.shop-by-collection-card
+{
+    width: 48%;
+}
+
 }

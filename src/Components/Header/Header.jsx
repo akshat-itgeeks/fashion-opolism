@@ -8,6 +8,7 @@ import { ReactComponent as SearchLogo } from '../../Svg/SearchLogo.svg';
 import { ReactComponent as UserLogo } from '../../Svg/UserLogo.svg';
 import { ReactComponent as CartLogo } from '../../Svg/CartLogo.svg';
 import { ReactComponent as DownArrowLogo } from '../../Svg/DownArrow.svg';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import 'swiper/css';
@@ -53,14 +54,6 @@ export default function Header() {
                     </Swiper>
                 </div>
                 <div className="top-header-language-area">
-                    {/* <ReactFlagsSelect
-
-                        className='my-language-select'
-                        onSelect={(data) => { setselectedLanguage(data) }}
-                        placeholder={selectedLanguage}
-                    >
-
-                    </ReactFlagsSelect> */}
                     <ReactFlagsSelect
                         className='my-language-select'
                         selected={selectedLanguage}
@@ -88,10 +81,10 @@ export default function Header() {
                     <img src="https://fashionopolism-secret-sale.myshopify.com/cdn/shop/files/logo.jpg?v=1620077064&width=1200" alt="" />
                 </div>
                 <div className="nav-account-cart-area">
-                    <SearchLogo />
-                    <span>Account</span>
-                    <UserLogo />
-                    <span>Cart</span>
+                    <SearchLogo className='hideinMobile' />
+                    <span className='hideinMobile'>Account</span>
+                    <UserLogo className='hideinMobile' />
+                    <span className='hideinMobile'>Cart</span>
                     <CartLogo />
                     0
                 </div>
