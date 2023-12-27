@@ -8,6 +8,7 @@ import { ReactComponent as SearchLogo } from '../../Svg/SearchLogo.svg';
 import { ReactComponent as UserLogo } from '../../Svg/UserLogo.svg';
 import { ReactComponent as CartLogo } from '../../Svg/CartLogo.svg';
 import { ReactComponent as DownArrowLogo } from '../../Svg/DownArrow.svg';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import 'swiper/css';

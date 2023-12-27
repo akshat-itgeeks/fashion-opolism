@@ -8,8 +8,9 @@
 }
 .shop-by-collection-heading
 {
+    letter-spacing: 1.4px;
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 600;
     word-spacing: 2px;
     
 }

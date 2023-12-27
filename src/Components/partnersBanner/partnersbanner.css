@@ -1,0 +1,15 @@
+.partners-banner-full-page
+{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0px 60px;
+    flex-wrap: wrap;
+    gap: 27px;
+    width: 100%;
+}
+.partners-logo
+{
+    display: flex;
+    width: 180px;
+}

@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     padding: 0px 60px;
-    gap: 20px;
+    gap: 10px;
 }
 .new-looks-heading
 {
@@ -16,17 +16,23 @@
 {
     width: 100%;
     height: 600px;
+    transition: all 5s;
+
 }
 .carousel-card
 {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 5px;
     width: 282px;
     height: auto;
+    transition: all 5s;
+
 }
 .carousel-card img
 {
+    transition: all 5s;
     cursor: pointer;
     object-fit: cover;
     width: 100%;
@@ -85,4 +91,24 @@
     color: whitesmoke;
     margin: 10px 0px;
     padding: 13px 28px;
+}
+.carousel-card-shop-btn
+{
+    transition: .2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 12px 25px;
+    font-size: 11px;
+    letter-spacing: 0.6px;
+}
+.onhover-active
+{
+  opacity: 1;
+  
 }
