@@ -59,20 +59,22 @@
 }
 
 .navbar-area {
+    
     display: flex;
-    z-index: 1;
-    top: 0;
-    position: sticky;
     width: 100%;
-    background-color: white;
-    display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background-color: white;
+    display: flex;
     height: 80px;
     padding: 0 55px;
 }
 
 .nav-links-area {
+    position: relative;
     width: 30%;
     padding: 12px;
     display: flex;
@@ -112,15 +114,65 @@
 }
 
 
-
-
 .dropdown-content-area
 {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: white;
+    width: 90%;
+    height: 200px;
     position: absolute;
     display: none;
     left: 65px;
-    top: 110px;
+    top: 80px;
 }
+.dropdown-content-area-active
+{
+    display: block;
+    display: flex;
+    gap: 20px;
+    
+}
+.dropdown-content-image-area
+{
+    width: 300px;
+    height: 170px;
+}
+.dropdown-content-image-area img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.dropdown-content-by-type-area
+{
+    letter-spacing: 1px;
+    font-size: 14px;
+    width: 430px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.dropdown-by-type-links
+{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.dropdown-content-heading
+{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+
+
+
+
 
 @media screen and (min-device-width: 281px) and (max-device-width: 880px) 
 { 
