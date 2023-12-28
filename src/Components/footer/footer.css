@@ -6,9 +6,11 @@
 }
 .footer-black-part
 {
+    
     padding: 0px 35px;
     background-color: black;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     width: 100%;
     height: 215px;
@@ -18,7 +20,7 @@
     display: flex;
     gap: 1px;
     flex-direction: column;
-    width: 54%;
+    width: 650px;
     color: white;
     padding: 0px 24px;
     align-items: start;
@@ -39,7 +41,7 @@
 .footer-black-part2
 {
     padding: 0px 20px 10px 0px;
-    width: 50%;
+    width: 600px;
     display: flex;
     flex-direction: column;
     gap: 18px;
@@ -204,6 +206,11 @@
     .footer-white-part1,.footer-white-part2,.footer-white-part3
     {
         width: 230px;
+    }
+    .footer-bottom-right
+    {
+        padding: 0px 10px 0px 0px;
+
     }
     
 }
