@@ -201,7 +201,7 @@
 }
 
 
-@media screen and (min-width:200px) and (max-width:800px) {
+@media screen and (min-device-width:200px) and (max-device-width:800px) {
 
     .footer-white-part1,.footer-white-part2,.footer-white-part3
     {
@@ -211,6 +211,25 @@
     {
         padding: 0px 10px 0px 0px;
 
+    }
+    .footer-black-part
+    {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-black-part1
+    {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo-area
+    {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
     }
     
 }

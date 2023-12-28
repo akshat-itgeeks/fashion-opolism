@@ -15,11 +15,11 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 // import { InputLabel, MenuItem, Select } from '@mui/material';
 import ReactFlagsSelect from 'react-flags-select';
+import { useNavigate } from 'react-router-dom';
 
 export default function Header() {
-
+    const navigate= useNavigate()
     const [selectedLanguage, setselectedLanguage] = useState("US")
-
 
 
     const showSelectedLabel = ("Show Selected Label", true);
@@ -80,7 +80,7 @@ export default function Header() {
                     <span onMouseOver={() => { onHover() }} style={{ display: 'flex', gap: '10px', alignItems: 'center' }} className='nav-shop-btn'>SHOP <DownArrowLogo /></span>
                     <span>BLOG</span>
                     <span>CONTACT</span>
-                    <span>ABOUT</span>
+                    <span onClick={()=>navigate('/about')}>ABOUT</span>
                 </div>
                 <div onMouseOver={() => { onHover() }} onMouseOut={() => { onHoverOut() }} className={ishovering ? "dropdown-content-area dropdown-content-area-active" : "dropdown-content-area"}>
                     <div className="dropdown-content-image-area">
@@ -105,7 +105,7 @@ export default function Header() {
                     </div>
                 </div>
                 <div className="nav-logo-area">
-                    <img src="https://fashionopolism-secret-sale.myshopify.com/cdn/shop/files/logo.jpg?v=1620077064" alt="" />
+                    <img onClick={()=>navigate('')} src="https://fashionopolism-secret-sale.myshopify.com/cdn/shop/files/logo.jpg?v=1620077064" alt="" />
                 </div>
                 <div className="nav-account-cart-area">
                     <SearchLogo className='hideinMobile' />
