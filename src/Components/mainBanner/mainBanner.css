@@ -20,10 +20,10 @@
     background-position: center;
     transition: all 4s;
 }
-.main-banner-image-area:hover
+/* .main-banner-image-area:hover
 {
     transform:scale(1.06) 
-}
+} */
 
 .main-banner-heading-area
 {

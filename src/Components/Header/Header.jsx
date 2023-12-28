@@ -36,6 +36,14 @@ export default function Header() {
         IN: { primary: "IND", secondary: "(₹)" }
     });
 
+    const [ishovering, setisHovering] = useState(false)
+
+    const onHover = () => {
+        setisHovering(true)
+    }
+    const onHoverOut = () => {
+        setisHovering(false)
+    }
 
 
     return (
@@ -69,16 +77,35 @@ export default function Header() {
             </div>
             <div className="navbar-area">
                 <div className="nav-links-area ">
-                    <span style={{ display: 'flex', gap: '10px', alignItems: 'center' }} className='nav-shop-btn'>SHOP <DownArrowLogo /></span>
+                    <span onMouseOver={() => { onHover() }} style={{ display: 'flex', gap: '10px', alignItems: 'center' }} className='nav-shop-btn'>SHOP <DownArrowLogo /></span>
                     <span>BLOG</span>
                     <span>CONTACT</span>
                     <span>ABOUT</span>
                 </div>
-                <div className="dropdown-content-area">
-                    hi
+                <div onMouseOver={() => { onHover() }} onMouseOut={() => { onHoverOut() }} className={ishovering ? "dropdown-content-area dropdown-content-area-active" : "dropdown-content-area"}>
+                    <div className="dropdown-content-image-area">
+                        <img src="https://fashionopolism-secret-sale.myshopify.com/cdn/shop/files/image__with__text-overlay.jpg?v=1643322581" alt="" />
+                    </div>
+                    <div className="dropdown-content-by-type-area">
+                        <span className='dropdown-content-heading'>By Type</span>
+                        <div className="dropdown-by-type-links">
+                            <span>Dresses</span>
+                            <span>Playsuits</span>
+                            <span>Bottoms</span>
+                            <span>Tops</span>
+                        </div>
+                    </div>
+                    <div className="dropdown-content-by-type-area">
+                        <span className='dropdown-content-heading'>By Collection</span>
+                        <div className="dropdown-by-type-links">
+                            <span>New Arrivals</span>
+                            <span>Best Sellings</span>
+                            <span>Our Favorites</span>
+                        </div>
+                    </div>
                 </div>
                 <div className="nav-logo-area">
-                    <img src="https://fashionopolism-secret-sale.myshopify.com/cdn/shop/files/logo.jpg?v=1620077064&width=1200" alt="" />
+                    <img src="https://fashionopolism-secret-sale.myshopify.com/cdn/shop/files/logo.jpg?v=1620077064" alt="" />
                 </div>
                 <div className="nav-account-cart-area">
                     <SearchLogo className='hideinMobile' />
