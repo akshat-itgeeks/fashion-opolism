@@ -92,6 +92,7 @@
 }
 
 .nav-logo-area img {
+    cursor: pointer;
     width: 220px;
 }
 

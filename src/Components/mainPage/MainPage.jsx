@@ -26,7 +26,7 @@ export default function MainPage() {
       <AdvertizePart/>
       <OverlayingImgBanner/>
       <PartnersBanner/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }
