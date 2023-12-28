@@ -1,0 +1,15 @@
+.collections-main-page
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    /* margin: 10px 510px 0px 0px;  */
+    margin-bottom: 50px;
+}
+.collections-lower-text
+{
+    font-weight: 700;
+    font-size: 14px;
+}
