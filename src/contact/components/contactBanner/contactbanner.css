@@ -1,0 +1,16 @@
+.contact-banner-area
+{
+    width: 100%;
+    height: 520px;
+
+}
+.contact-banner
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-image: url("https://fashionopolism-secret-sale.myshopify.com/cdn/shop/files/hero_slide_1.jpg?v=1620067690");
+}
