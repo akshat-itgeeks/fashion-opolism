@@ -1,0 +1,25 @@
+.shop-banner-full-page
+{
+    width: 100%;
+    height: 410px;
+    
+}
+.shop-banner
+{
+
+    width: 100%;
+    height: 100%;
+    background-image: url("https://fashionopolism-secret-sale.myshopify.com/cdn/shop/files/Slide___secondary.jpg?v=1643325390");
+    object-fit: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shop-banner-main-text
+{
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}

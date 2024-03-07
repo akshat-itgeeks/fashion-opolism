@@ -1,0 +1,22 @@
+.shop-cards-main-area
+{
+    padding: 0px 55px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+@media screen and (min-device-width:200px) and (max-device-width:700px) 
+{
+
+.shop-by-collection-card
+{
+    width: 88%;
+}
+.shop-cards-main-area
+{
+    justify-content: space-around;
+}
+
+}

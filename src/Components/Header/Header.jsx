@@ -77,9 +77,9 @@ export default function Header() {
             </div>
             <div className="navbar-area">
                 <div className="nav-links-area ">
-                    <span onMouseOver={() => { onHover() }} style={{ display: 'flex', gap: '10px', alignItems: 'center' }} className='nav-shop-btn'>SHOP <DownArrowLogo /></span>
+                    <span onClick={()=>navigate('/collections')} onMouseOver={() => { onHover() }} style={{ display: 'flex', gap: '10px', alignItems: 'center' }} className='nav-shop-btn'>SHOP <DownArrowLogo /></span>
                     <span>BLOG</span>
-                    <span>CONTACT</span>
+                    <span onClick={()=>navigate('/contact')}>CONTACT</span>
                     <span onClick={()=>navigate('/about')}>ABOUT</span>
                 </div>
                 <div onMouseOver={() => { onHover() }} onMouseOut={() => { onHoverOut() }} className={ishovering ? "dropdown-content-area dropdown-content-area-active" : "dropdown-content-area"}>
